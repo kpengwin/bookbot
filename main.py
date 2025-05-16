@@ -1,8 +1,6 @@
 import sys
 from stats import get_counts_sorted, get_num_words, get_character_counts
 
-# BOOK="books/frankenstein.txt"
-
 def main():
     if len(sys.argv) != 2:
         print("Usage: python3 main.py <path_to_book>")
